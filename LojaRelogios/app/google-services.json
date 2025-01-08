@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124994321498",
+    "project_id": "loja-relogios",
+    "storage_bucket": "loja-relogios.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124994321498:android:cf253922c96b7d4423ac63",
+        "android_client_info": {
+          "package_name": "com.example.lojarelogios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-RA-uyMs_7xSNr87hGAqdG-RoDFhO9hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

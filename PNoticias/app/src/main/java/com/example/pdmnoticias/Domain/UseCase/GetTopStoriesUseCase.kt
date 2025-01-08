@@ -1,12 +1,10 @@
 package com.example.pdmnoticias.domain.usecase
 
-import com.example.pdmnoticias.data.repository.NewrepositoryIMPL
-import com.example.pdmnoticias.data.model.NewsItem
+import com.example.pdmnoticias.domain.model.NewsItem
+import com.example.pdmnoticias.domain.repository.NewsRepository
 
-
-class GetTopStoriesUseCase(private val newrepositoryIMPL: NewrepositoryIMPL) {
-
-    suspend operator fun invoke(apiKey: String): List<NewsItem> {
-        return newrepositoryIMPL.getTopStories(apiKey)
+class GetTopStoriesUseCase(private val newsRepository: NewsRepository) {
+    suspend operator fun invoke(): List<NewsItem> {
+        return newsRepository.getTopStories()
     }
 }

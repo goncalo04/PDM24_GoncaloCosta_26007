@@ -70,6 +70,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
     implementation(libs.retrofit)
     implementation(libs.gson)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.ui.test.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -77,4 +80,11 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("io.coil-kt:coil-compose:2.2.2")
+    implementation("androidx.compose.material3:material3:1.2.0")
+    implementation("androidx.compose.material:material:1.4.3")
+    implementation ("androidx.navigation:navigation-compose:2.7.3")
+
+
+
 }

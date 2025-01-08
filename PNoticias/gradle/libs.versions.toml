@@ -1,5 +1,5 @@
 [versions]
-agp = "8.6.0"
+agp = "8.7.3"
 kotlin = "1.9.0"
 coreKtx = "1.15.0"
 junit = "4.13.2"
@@ -15,6 +15,9 @@ activityKtx = "1.9.3"
 retrofit = "2.9.0"
 gson =  "2.9.0"
 lifecycle_viewmodel_compose = "2.4.1"
+navigationRuntimeKtx = "2.8.5"
+navigationCompose = "2.8.5"
+uiTestAndroid = "1.7.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -38,6 +41,9 @@ androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", ve
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "gson"}
 lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle_viewmodel_compose" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-ui-test-android = { group = "androidx.compose.ui", name = "ui-test-android", version.ref = "uiTestAndroid" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

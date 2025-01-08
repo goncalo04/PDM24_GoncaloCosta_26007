@@ -1,11 +1,7 @@
-package com.example.pdmnoticias.Domain.repository
+package com.example.pdmnoticias.domain.repository
 
-import androidx.compose.ui.input.key.Key
-import com.example.pdmnoticias.data.model.NewsItem
+import com.example.pdmnoticias.domain.model.NewsItem
 
-interface NewsRepository{
-
-    suspend fun getTopStories (apiKey: String): List<NewsItem>
-
-
+interface NewsRepository {
+    suspend fun getTopStories(): List<NewsItem>
 }
